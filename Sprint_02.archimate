@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-02ebaeb49b5847cca4baf80f5f62c2cf" version="5.0.0">
+  <folder name="Strategy" id="id-e61b04b103544292a49749fa9c1e92c6" type="strategy"/>
+  <folder name="Business" id="id-c6560a1d05f8425d88455a21c577d122" type="business"/>
+  <folder name="Application" id="id-791f3cb1728045f6ae9b83d56e6fc8cf" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-d07b1cd7a60b42c69e4f0b6ef93451f3" type="technology"/>
+  <folder name="Motivation" id="id-ecb08fbf885149d59904300da665e8d7" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Eurofarma" id="id-23669efb13be45d1a482c836dfacfc0a"/>
+    <element xsi:type="archimate:Driver" name="Integração de canais digitais, nutrizes e bancos de leite humano" id="id-4d61a187429c419dbcf1b229c8d5163b"/>
+    <element xsi:type="archimate:Principle" name="Facilitação do acesso à informação sobre doações e o projeto Lactare" id="id-8558b7055fd84921826282e4fdefa2eb"/>
+    <element xsi:type="archimate:Principle" name="Conexão entre nutrizes e banco de leite ou ponto de coleta" id="id-d22d3e00fadd4e26aebf6e5213277fdb"/>
+    <element xsi:type="archimate:Principle" name="Criação de dashboards com KPIs" id="id-f276499c1d6e4179903cc49af673c6e9"/>
+    <element xsi:type="archimate:Principle" name="Comunicação ativa com nutrizes ativas" id="id-522cf4de4d624006831fdebb52ef8c6c"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-f6100fd9d2ad4e9484708fffb0c2af6c" type="implementation_migration"/>
+  <folder name="Other" id="id-a015d3bb20e64bcc96a2e0133c0f1847" type="other"/>
+  <folder name="Relations" id="id-7358c1704ed24bed879319b162c86b2a" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-1c52a99736df438aa0fd2c1f02698c06" source="id-23669efb13be45d1a482c836dfacfc0a" target="id-4d61a187429c419dbcf1b229c8d5163b"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-1fdaa827ce8f417fb2be92151285ccb5" source="id-4d61a187429c419dbcf1b229c8d5163b" target="id-8558b7055fd84921826282e4fdefa2eb"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-c8589a7758a74bc3bcfe992967e6d6bc" source="id-4d61a187429c419dbcf1b229c8d5163b" target="id-d22d3e00fadd4e26aebf6e5213277fdb"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0322ec803e9d48ad86c11e8354c2feaa" source="id-4d61a187429c419dbcf1b229c8d5163b" target="id-f276499c1d6e4179903cc49af673c6e9"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-d59cda292da2487b9744e939fe75fe05" source="id-4d61a187429c419dbcf1b229c8d5163b" target="id-522cf4de4d624006831fdebb52ef8c6c"/>
+  </folder>
+  <folder name="Views" id="id-bbba4c240404418ba9db0feb65ab8fbd" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-02f03ec779d744c88bec088dec9bb3c0">
+      <child xsi:type="archimate:DiagramObject" id="id-7bb769176a59463ca8021dc027b9da3e" archimateElement="id-23669efb13be45d1a482c836dfacfc0a">
+        <bounds x="12" y="195" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-31bc4083f0294c348cde3e9b7bbdd239" source="id-7bb769176a59463ca8021dc027b9da3e" target="id-c98be26add9b4ebc9fe81acb6ec417e4" archimateRelationship="id-1c52a99736df438aa0fd2c1f02698c06"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c98be26add9b4ebc9fe81acb6ec417e4" targetConnections="id-31bc4083f0294c348cde3e9b7bbdd239" archimateElement="id-4d61a187429c419dbcf1b229c8d5163b">
+        <bounds x="168" y="192" width="173" height="62"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3f275fb0971f41aa9f4ae8de7d0ba095" source="id-c98be26add9b4ebc9fe81acb6ec417e4" target="id-b3ca5fb33d1e4aa7b0e4f8ab0a416b70" archimateRelationship="id-1fdaa827ce8f417fb2be92151285ccb5"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-61be24a0e84b4fabbd005ba9a6e41567" source="id-c98be26add9b4ebc9fe81acb6ec417e4" target="id-47baa5eaaba84075b3ac5753c4eb5fa3" archimateRelationship="id-c8589a7758a74bc3bcfe992967e6d6bc"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-83a61738c36f4bb9902551de76678e7b" source="id-c98be26add9b4ebc9fe81acb6ec417e4" target="id-be171343f7b74023803ffd8615c52f3c" archimateRelationship="id-0322ec803e9d48ad86c11e8354c2feaa"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-13ba13166b184ad09b8423aa828aaaa5" source="id-c98be26add9b4ebc9fe81acb6ec417e4" target="id-82a36d444216415497c810ac7c935473" archimateRelationship="id-d59cda292da2487b9744e939fe75fe05"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b3ca5fb33d1e4aa7b0e4f8ab0a416b70" targetConnections="id-3f275fb0971f41aa9f4ae8de7d0ba095" archimateElement="id-8558b7055fd84921826282e4fdefa2eb">
+        <bounds x="408" y="36" width="162" height="69"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-47baa5eaaba84075b3ac5753c4eb5fa3" targetConnections="id-61be24a0e84b4fabbd005ba9a6e41567" archimateElement="id-d22d3e00fadd4e26aebf6e5213277fdb">
+        <bounds x="416" y="132" width="145" height="68"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-be171343f7b74023803ffd8615c52f3c" targetConnections="id-83a61738c36f4bb9902551de76678e7b" archimateElement="id-f276499c1d6e4179903cc49af673c6e9">
+        <bounds x="429" y="240" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-82a36d444216415497c810ac7c935473" targetConnections="id-13ba13166b184ad09b8423aa828aaaa5" archimateElement="id-522cf4de4d624006831fdebb52ef8c6c">
+        <bounds x="429" y="336" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-b501b5c27deb4b28a960824c3f037a3b" textAlignment="1">
+        <bounds x="756" y="36" width="185" height="80"/>
+        <content>Perguntar para o pessoal da eurofarma, o que siginifica a segmentação de região e perfil&#xD;
+</content>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
