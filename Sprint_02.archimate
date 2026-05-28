@@ -93,7 +93,7 @@
     <element xsi:type="archimate:TechnologyService" name="Serviço de infraestrutura on premise corporativa (Super Soluções)" id="id-7512e1ac5e4545579a885587c0df8d82"/>
     <element xsi:type="archimate:Node" name="Database Server do BI" id="id-8082ac87c6354c7da7da6ddfd4a0a607"/>
     <element xsi:type="archimate:SystemSoftware" name="Windows server, SQL Server" id="id-19fecac27a6c44b79be2a8e0232d7ef2"/>
-    <element xsi:type="archimate:CommunicationNetwork" name="Ethernet LAN TCP/IP" id="id-99d2379137354909b7912dfe53e21817"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internet pública" id="id-99d2379137354909b7912dfe53e21817"/>
     <element xsi:type="archimate:Device" name="PC Corporativo para o BI " id="id-b208c0638b40433e93ecee3187c5b420"/>
     <element xsi:type="archimate:SystemSoftware" name="Client do BI Microstrategy" id="id-dc0718d43e3441c988fc942b4d265a02"/>
   </folder>
@@ -599,7 +599,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-0e68ce36dd034105aa84c9123a912d73" targetConnections="id-e3f232c7e9904cb3b049cc5094daf213" archimateElement="id-7512e1ac5e4545579a885587c0df8d82">
         <bounds x="608" y="2088" width="756" height="280"/>
         <child xsi:type="archimate:DiagramObject" id="id-f85b41623fd94dc8a5172d56a8249813" archimateElement="id-8082ac87c6354c7da7da6ddfd4a0a607">
-          <bounds x="336" y="90" width="156" height="112"/>
+          <bounds x="180" y="84" width="156" height="112"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ef6ea12b685b4c8da728fa73efcb4abd" source="id-f85b41623fd94dc8a5172d56a8249813" target="id-2e82cdb550cd4d41a0018b7fe4d2e06a" archimateRelationship="id-19e0c47c8e744d5e829a1257c6e0bb66"/>
           <child xsi:type="archimate:DiagramObject" id="id-2e82cdb550cd4d41a0018b7fe4d2e06a" targetConnections="id-ef6ea12b685b4c8da728fa73efcb4abd" archimateElement="id-19fecac27a6c44b79be2a8e0232d7ef2">
             <bounds x="24" y="36" width="120" height="55"/>
